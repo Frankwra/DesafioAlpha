@@ -63,7 +63,7 @@ body {
 
 
 .hero {
-    min-height: 80vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,15 +73,42 @@ body {
     color: white;
 }
 
-#img-perfil{
-    border-radius: 50%;
-    float: left;
-    margin-right: 15px;  
-    width: 200px; 
-    height: 200px;
-    aspect-ratio: 1/1;
-    object-fit: cover;
+.container-img {
+    position: relative;
+    width: 210px;
+    height: 210px;
+}
 
+#img-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+/* contorno girando */
+.anel {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 3px solid #00bcd4;
+    border-top-color: transparent;
+
+    animation: girar 2.5s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -138,4 +165,13 @@ body {
     color: white;
     text-align: center;
     padding: 2rem;
+}
+
+/* Sobre */
+.sobre-text {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
 }
