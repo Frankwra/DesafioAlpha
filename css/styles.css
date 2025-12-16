@@ -17,7 +17,7 @@ body {
 
 /* Navegação */
 .header {
-    background: #e6e5e5;
+    background: #f1f1f1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -70,7 +70,7 @@ body {
     text-align: center;
     padding: 2rem;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    color: #f1f1f1;
 }
 
 .container-img {
@@ -126,7 +126,7 @@ body {
 .btn {
     display: inline-block;
     padding: 0.75rem 2rem;
-    background: white;
+    background: #f1f1f1;
     color: #667eea;
     text-decoration: none;
     border-radius: 5px;
@@ -144,7 +144,7 @@ body {
 }
 
 .projetos {
-    background: #f5f5f5;
+    background: ##f1f1f1;
 }
 
 .container {
@@ -162,13 +162,13 @@ body {
 /* Footer */
 .footer {
     background: #333;
-    color: white;
+    color: #f1f1f1;
     text-align: center;
     padding: 2rem;
 }
 
 /* Sobre */
-#sobre{
+#sobre #contato{
     background-color: #f1f1f1;
 }
 
@@ -187,4 +187,24 @@ body {
     gap: 2rem;
     list-style: none;
 
+}
+
+/* Contato */
+.contato-info {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.contato-info p {
+    margin-bottom: 1rem;
+}
+
+.contato-info a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.contato-info a:hover {
+    opacity: 0.7;
 }
