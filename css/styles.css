@@ -131,3 +131,11 @@ body {
     margin-bottom: 2rem;
     color: #333;
 }
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
