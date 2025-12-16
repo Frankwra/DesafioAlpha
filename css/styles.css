@@ -168,10 +168,23 @@ body {
 }
 
 /* Sobre */
+#sobre{
+    background-color: #f1f1f1;
+}
+
 .sobre-text {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    font-size: 1.1rem;
-    color: #666;
+    font-size: 1.2rem;
+    color: #000000;
+    
+}
+
+.sobre-ul{
+    text-align: center;
+    font-weight: bold;
+    gap: 2rem;
+    list-style: none;
+
 }
