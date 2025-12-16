@@ -17,12 +17,13 @@ body {
 
 /* Navegação */
 .header {
-    background: #333;
+    background: rgba(33, 33, 33, 0.8);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 100;
+    border-radius: 50px;
 }
 
 .nav {
@@ -33,6 +34,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 1.3rem;
+    
     
 }
 
@@ -101,8 +103,10 @@ body {
     border-radius: 50%;
     border: 3px solid #00bcd4;
     border-top-color: transparent;
+    
 
     animation: girar 2.5s linear infinite;
+   
 }
 
 @keyframes girar {
