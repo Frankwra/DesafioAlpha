@@ -13,7 +13,18 @@
 
     <header class="header">
         <nav class="nav">
-            <h1 class="logo">F.R.A.N.Ks</h1>
+            <a href="#home" class="logo">
+
+                <svg class="logo-svg" width="160" height="40" viewBox="0 0 160 50" xmlns="http://www.w3.org/2000/svg"
+                    aria-label="Logo F.R.A.N.Ks" role="img">
+                    <text x="0" y="45" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700"
+                        fill="#2563eb" letter-spacing="2">
+                        F.R.A.N.Ks
+                        
+                    </text>
+                </svg>
+                
+            </a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
@@ -23,59 +34,59 @@
         </nav>
     </header>
 
-    <section id="home" class="hero">
-        <div class="container-img">
-            <img id="img-perfil" src="./img/perfil.png" alt="">
-            <span class="anel"></span>
-        </div>
-        <div class="hero-content">
+    <main>
+        <section id="home" class="hero">
+            <div class="container-img">
+                <img id="img-perfil" src="./img/perfil.png" alt="">
+                <span class="anel"></span>
+            </div>
+            <div class="hero-content">
 
-            <h2 class="hero-title">Desenvolvedor Web</h2>
-            <p class="hero-description">
-                Criando experiências digitais simples e funcionais
-            </p>
-            <a href="#projetos" class="btn">Ver Projetos</a>
-        </div>
-    </section>
-    <hr>
-    <section id="sobre" class="section">
+                <h2 class="hero-title">Desenvolvedor Web</h2>
+                <p class="hero-description">
+                    Criando experiências digitais simples e funcionais
+                </p>
+                <a href="#projetos" class="btn">Ver Projetos</a>
+            </div>
+        </section>
 
-        <br>
-        <div class="container">
-            <h2 class="section-title">Sobre mim</h2>
-            <p class="sobre-text">
-                Me chamo Frank e sou aspirante a desenvolvedor.
-                Atualmente estou focado em aprender lógica de programação e
-                tecnologias fundamentais como HTML, CSS e JavaScript.
-            </p>
+        <section id="sobre" class="section section-capsule">
             <br>
-            <p class="sobre-text">
-                Meu objetivo é evoluir na área de tecnologia, consolidando uma base
-                sólida em programação e me preparando para oportunidades de formação
-                e entrada no mercado de desenvolvimento.
-            </p>
-            <br>
-            <p class="sobre-text">
-                Este site foi criado como parte de desafios práticos e estudos,
-                servindo como um espaço para aplicar os conhecimentos adquiridos
-                e acompanhar minha evolução como desenvolvedor.
-            </p>
-            <br>
-            <p class="sobre-text">
-                Tecnologias que estou estudando:
-            </p>
+            <div class="container">
+                <h2 class="section-title">Sobre mim</h2>
+                <p class="sobre-text">
+                    Me chamo Frank e atuo como desenvolvedor web, com foco na criação de interfaces modernas, funcionais
+                    e responsivas.
+                    Trabalho com tecnologias fundamentais do desenvolvimento front-end, como HTML, CSS e JavaScript,
+                    aplicando boas práticas
+                    de organização, semântica e usabilidade.
+                </p>
 
-            <ul class="sobre-ul">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Git e GitHub</li>
-            </ul>
+                <p class="sobre-text">
+                    Este site foi desenvolvido como parte do meu portfólio pessoal,
+                    reunindo projetos práticos e experiências que refletem
+                    minha evolução como desenvolvedor e meu compromisso com aprendizado
+                    contínuo e qualidade no desenvolvimento.
+                </p>
 
-        </div>
-        <br>
-        <hr>
-        <section id="projetos" class="section projetos">
+                <p class="sobre-text" style="text-align: center;">
+                    Tecnologias
+                </p>
+
+                <ul class="sobre-ul">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Figma</li>
+                    <li>Git e GitHub</li>
+                </ul>
+
+            </div>
+            <br>
+        </section>
+
+        <section id="projetos" class="section projetos section-capsule">
+
             <div class="container">
                 <br>
                 <h2 class="section-title">Projetos</h2>
@@ -129,24 +140,48 @@
                             </div>
                         </div>
                     </article>
-                <br>       
+
                 </div>
             </div>
 
         </section>
-        <hr>
-    </section>
 
-    <section id="contato" class="section">
-        <div class="container">
-            <h2 class="section-title">Contato</h2>
-            <div class="contato-info">
-                <p><a target="_blank" href="https://www.linkedin.com/in/frankwra/">Linkedin</a></p>
-                <p><a target="_blank" href="https://github.com/Frankwra">Github</a></p>
-                <p><a href="mailto:frankwra@gmail.com">frankwra@gmail.com</a></p>
+
+        <section id="contato" class="section contato section-capsule">
+
+            <div class="container">
+                <h2 class="section-title">Contato</h2>
+
+                <div class="contato-buttons">
+                    <a class="btn-contato linkedin" target="_blank" href="https://www.linkedin.com/in/frankwra/">
+                        LinkedIn
+                    </a>
+
+                    <a class="btn-contato github" target="_blank" href="https://github.com/Frankwra">
+                        GitHub
+                    </a>
+
+                    <a class="btn-contato email" href="mailto:frankwra@gmail.com">
+                        Email
+                    </a>
+                </div>
+
+                <div class="contato-whatsapp">
+                    <a class="btn-contato whatsapp" target="_blank" href="https://wa.me/5584994204356">
+                        Falar no WhatsApp
+                    </a>
+
+                    <div class="qr-code">
+                        <p>Ou escaneie o QR Code</p>
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://wa.me/5584994204356"
+                            alt="QR Code WhatsApp">
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+
+    </main>
 
     <footer class="footer">
         <p>&copy; 2025 F.R.A.N.Ks</p>
